@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Vollkorn');
+
+html{
+    background-color: #91FFE8;
+}
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    border: 18px solid #91FFE8;
+    background-color: #F4F4F4;
+    font-family: 'Noto Sans', sans-serif;
+    color: #3C3C3C;
+    overflow-y: scroll;
+}
+.app{
+    box-sizing: border-box;
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
+h1{
+    font-family: 'Athelas', 'Vollkorn', serif;
+    font-size: 8em;
+    font-weight: 800;
+}
+h2{
+    font-family: 'Athelas', 'Vollkorn', serif;
+    font-size: 4em;
+    font-weight: 800;
+}
+a{
+    color: #1CC4A1;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.contact{
+    margin: 80px 0 30px;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+footer{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #91FFE8;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #6d6d6d;
+}
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.links .link{
+    padding: 30px;
+    font-size: 1.5em;
+    font-family: 'Athelas', 'Vollkorn', serif;
+    font-weight: 600;
+    color: #3C3C3C;
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+.links .link:hover{
+    color: #3C3C3C;
+}
+.about h2{
+    margin-bottom: 15px;
+}
+.about p{
+    max-width: 700px;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+.about img{
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.error{
+    margin-top: 100px;
+}
+.error p{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+@media only screen and (max-width: 950px) {
+    h1{
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1, h2{
+        font-size: 2.1em;
+    }
+    .contact{
+        font-size: 1em;
+    }
+    .links{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .links .link{
+        padding: 10px;
+    }
+}

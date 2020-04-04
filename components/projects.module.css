@@ -1,0 +1,66 @@
+.project h3{
+    font-family: 'Athelas', 'Vollkorn', serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 15px 0 5px;
+}
+.project h3 span{
+    background-color: #91FFE8;
+}
+.project{
+    margin: 20px 0 20px;
+    background-color: #FFF;
+    box-shadow: 6px 6px 29px -6px rgba(0,0,0,0.38);
+    padding: 10px 20px;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    display: flex;
+    height: 250px;
+    margin-right: 100px;
+    flex-wrap: nowrap;
+}
+.project p{
+    margin: 10px 0 5px;
+}
+.project .project_img{
+    height: 100%;
+    margin-right: -100px;
+    margin-left: 10px;
+}
+.project .project_img img{
+    height: 100%;
+    width: auto;
+}
+.project .content{
+    width: 100%;
+}
+
+@media only screen and (max-width: 950px) {
+    .project{
+        flex-wrap: wrap;
+        height: inherit;
+        margin-right: 0px;
+    }
+    .project .project_img{
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 200px;
+        width: 100%;
+    }
+    .project .project_img img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        object-position: left;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project{
+        font-size: 1em;
+    }
+    .project h3{
+        font-size: 2em;
+        line-height: 1.3em;
+    }
+}
