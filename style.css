@@ -40,7 +40,7 @@ a{
     padding: 0 10px;
 }
 .contact{
-    margin: 80px 0 30px;
+    margin: 30px 0 30px;
     font-size: 1.3em;
     line-height: 1.5em;
 }
@@ -98,6 +98,9 @@ footer{
     h1{
         font-size: 4em;
     }
+    .container{
+        padding: 0 15px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -113,6 +116,9 @@ footer{
         justify-content: center;
     }
     .links .link{
-        padding: 10px;
+        padding: 15px;
+    }
+    .about p{
+        font-size: 1em;
     }
 }

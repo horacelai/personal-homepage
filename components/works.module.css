@@ -50,3 +50,8 @@
         padding: 0px 0px 30px;
     }
 }
+@media only screen and (max-width: 600px) {
+    .work{
+        font-size: 1em;
+    }
+}
