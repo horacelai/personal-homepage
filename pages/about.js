@@ -41,7 +41,7 @@ const About = () => (
         <Works />
         <div className='container'>
             <div className='contact'>
-                <p>If you want to know more about me, feel free to download my <a href='resume.pdf' target="_blank" rel="noopener">r&#233;sum&#233;</a>.</p>
+                <p>If you want to know more about me, feel free to download my <a href='resume/resume.pdf' target="_blank" rel="noopener">r&#233;sum&#233;</a>.</p>
             </div>
         </div>
         </main>
