@@ -34,7 +34,7 @@ const About = () => (
         <div className="about container">
             <h2>About Me</h2>
             <img src="image/icon.jpeg" alt='Horace Lai' />
-            <p>Hello, my name is Horace and I am a year 4 student of HKUST majoring in Computer Science.</p>
+            <p>Hello, my name is Horace and I am a Graduand of HKUST majoring in Computer Science.</p>
             <p>I am interested in web development and web design.</p>
             <p>If you have any question about me, feel free to reach me by email or my social media.</p>
         </div>

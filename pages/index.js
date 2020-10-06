@@ -43,7 +43,9 @@ const Home = () => (
     </Head>
     <main>
       <SocialMedia/>
-      <Header />
+      <div className="container">
+        <Header />
+      </div>
       <div className="links">
         {
           pages.map((page) => {
